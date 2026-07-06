@@ -1,0 +1,44 @@
+{
+  "name": "talaria",
+  "version": "0.1.0",
+  "description": "The agent runtime that ships. AI writes code — Talaria does everything else: deterministic detection, phase-gated pipelines, resumable state, and specialized agents. A ground-up, typed reimplementation of the agent-orchestration idea.",
+  "type": "module",
+  "bin": {
+    "talaria": "./bin/talaria.ts",
+    "tal": "./bin/talaria.ts"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "talaria": "tsx bin/talaria.ts",
+    "test": "node --import tsx --test 'test/**/*.test.ts'",
+    "test:watch": "node --import tsx --test --watch 'test/**/*.test.ts'",
+    "typecheck": "tsc --noEmit",
+    "lint": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "agentic",
+    "orchestration",
+    "runtime",
+    "pipeline",
+    "phase-gates",
+    "code-review",
+    "seo",
+    "static-analysis",
+    "hermes",
+    "claude",
+    "multi-agent"
+  ],
+  "author": "nguyenminhduc9988",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.23.0",
+    "typescript": "^5.6.0"
+  }
+}
