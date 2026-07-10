@@ -6,3 +6,6 @@ dist/
 .talaria/cache/
 coverage/
 *.tsbuildinfo
+
+# Private deployment glue — lives in the private ops repo, never publish
+integration/hermes/
